@@ -1,3 +1,4 @@
+/* GENERALE */
 *{
   margin: 0;
   padding: 0;
@@ -8,4 +9,38 @@
   content: "";
   display: table;
   clear: both;
+}
+
+
+/* HEADER */
+h1{
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bold;
+  color: #e53170;
+  text-align: center;
+  padding: 30px;
+}
+
+/* MAIN */
+.container-general{
+  height: 500px;
+  width: 70%;
+  max-width: 1200px;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.container-general .text p{
+  text-align: center;
+}
+
+.container-cards{
+  width: 100%;
+  padding: 30px 0;
+}
+
+.cards{
+  width: 30%;
+  height: 100px;
+  background-color: black;
 }
