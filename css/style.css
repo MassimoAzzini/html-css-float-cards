@@ -59,11 +59,11 @@ h1{
   -5px -5px 10px #dedede,
    5px -5px 10px #dedede,
   -5px  5px 10px #dedede;
-
 }
 
 .cards img{
   width: 100px;
+  display: block;
 }
 
 .cards .info{
