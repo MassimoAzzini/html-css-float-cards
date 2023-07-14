@@ -30,7 +30,7 @@ h1{
 /* MAIN */
 .container-general{
   height: 500px;
-  width: 70%;
+  width: 80%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -47,8 +47,8 @@ h1{
 
 .cards{
   width: calc(100% /3);
-  min-width: 250px;
-  padding: 15px;
+  min-width: 300px;
+  padding: 10px;
 }
 
 .cards .background{
@@ -72,10 +72,10 @@ h1{
 }
 
 .info .name,
-.job,
-.mail{
-  font-size: 0.9rem;
-  margin-bottom: 5px;
+.info .job,
+.info .mail{
+  font-size: 0.8rem;
+  margin-bottom: 10px;
 }
 
 .info .name{
